@@ -16,9 +16,9 @@ function compute()
     var result = document.getElementById("result");
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);  
-    result.innerHTML="If you deposit " + principal;
-    "at an interest rate of " + rate + ".";
-    "You will receive and amount of " + interest + ",";
+    result.innerHTML="If you deposit " + principal,
+    "at an interest rate of " + rate + ".",
+    "You will receive and amount of " + interest + ",",
     "in the year " + year + ".";
 }
 // Updates output values if the rate slider is adjusted
