@@ -5,7 +5,7 @@ function compute()
     var principal = document.getElementById("principal").value;
         function validate()
         {
-            if(principal<=0){
+            if(principal<0){
                 alert("Enter a positive number")
                 return;
                 }
