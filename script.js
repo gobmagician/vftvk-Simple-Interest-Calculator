@@ -1,5 +1,3 @@
-
-
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -14,8 +12,7 @@ function compute()
           return;
     }
     else {      
-          document.getElementById("result").innerHTML="If you deposit " +  principal  + ",\<br/>at an interest rate of "+rate+".%\<br\>You will recieve an amount of "+interest+",\<br/>in the year "+year+".\<br/>"}
-}
+        document.getElementById("result").innerHTML="If you deposit " + principal +  ",\<br/>at an interest rate of "+rate+".%\<br\>You will recieve an amount of "+interest+",\<br/>in the year "+year+".\<br/>"}}		
 // Updates output values if the rate slider is adjusted
 function updateRate()
 {

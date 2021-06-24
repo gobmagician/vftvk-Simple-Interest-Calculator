@@ -4,11 +4,16 @@ h1{color:grey;font-family:verdana;}
 {
     background-color:white;
     color:black;
-    width:300px;
+    width:480px;
     padding:20px;
     border-radius:25px;
     align:center;
 }
+.otherdiv
+{
+	padding:50px;
+	align:center;
+}	
 .highlightme 
 {
     backgound-color:#FFFF00
