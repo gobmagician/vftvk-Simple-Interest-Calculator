@@ -14,9 +14,9 @@ function compute()
     }
     else {      
         document.getElementById("result").innerHTML= principal;
-        document.getElementByID("result1").innerHTML= rate;
-        document.getElementByID("result2").innerHTML= interest;
-        document.getElementByID("result3").innerHTML= year;
+        //document.getElementByID("result1").innerHTML= rate;
+        //document.getElementByID("result2").innerHTML= interest;
+        //document.getElementByID("result3").innerHTML= year;
         }
 // Updates output values if the rate slider is adjusted
 function updateRate()
