@@ -4,6 +4,9 @@ function compute()
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var result = document.getElementById("result");
+    var result1 = document.getElementById("result1");
+    var result2 = document.getElementById("result2");
+    var result3 = document.getElementById("result3");
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
             
@@ -12,8 +15,14 @@ function compute()
           alert("Enter a positive number")
           return;
     }
-    else {      
-        document.getElementById("result").innerHTML="If you deposit " + principal +  ",\<br/>at an interest rate of "+rate+".%\<br\>You will recieve an amount of "+interest+",\<br/>in the year "+year+".\<br/>"}}		
+    else {
+        document.getElementById("result").innerHTML="If you deposit " + principal +  ",\<br/>"
+        document.getElementById("result1").innerHTML="at an interest rate of "+rate+".\<br/>"
+        document.getElementById("result2").innerHTML="You will recieve an amount of "+interest+",\<br/>"
+        document.getElementById("result2").innerHTML="in the year "+year+".\<br/>"
+    }
+}
+        //document.getElementById("result").innerHTML="If you deposit " + principal +  ",\<br/>at an interest rate of "+rate+".%\<br\>You will recieve an amount of "+interest+",\<br/>in the year "+year+".\<br/>"}}		
 // Updates output values if the rate slider is adjusted
 function updateRate()
 {
