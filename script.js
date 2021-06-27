@@ -16,6 +16,7 @@ function compute()
           return;
     }
     else {
+        document.getElementById("result").innerText="If you invested ";
         document.getElementById("result").innerHTML=principal+"\<br/>";
         document.getElementById("result1").innerHTML=rate+"\<br/>";
         document.getElementById("result2").innerHTML=interest+"\<br/>";
