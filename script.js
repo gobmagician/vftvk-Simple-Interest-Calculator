@@ -16,10 +16,10 @@ function compute()
           return;
     }
     else {
-        document.getElementById("result").innerHTML=principal;
-        document.getElementById("result1").innerHTML=rate;
-        document.getElementById("result2").innerHTML=interest;
-        document.getElementById("result2").innerHTML=year;
+        document.getElementById("result").innerHTML=principal+"\<br/>";
+        document.getElementById("result1").innerHTML=rate+"\<br/>";
+        document.getElementById("result2").innerHTML=interest+"\<br/>";
+        document.getElementById("result3").innerHTML=year+"\<br/>";
     }
 }
         //document.getElementById("result").innerHTML="If you deposit " + principal +  ",\<br/>at an interest rate of "+rate+".%\<br\>You will recieve an amount of "+interest+",\<br/>in the year "+year+".\<br/>"}}		
